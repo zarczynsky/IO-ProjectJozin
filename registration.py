@@ -9,6 +9,7 @@ import modules
 
 class Registration(files.Files, function.Functions, modules.Modules):
     """Klasa zawierająca metody zapisujące dane do plików"""
+
     def __init__(self):
         pass
 

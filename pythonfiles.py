@@ -8,6 +8,7 @@ from os import *
 
 class FileInDirectory:
     """Klasa obsłuhująca przeszukiwanie katalogów"""
+
     def __init__(self):
         self.python_file = []
 

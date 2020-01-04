@@ -7,6 +7,7 @@ import functions
 
 class Functions:
     """Klasa zawierająca metody do operacji na funckajach"""
+
     def __init__(self):
         Functions.functionsConnectionList = []
         Functions.functionsConnectionWeight = []

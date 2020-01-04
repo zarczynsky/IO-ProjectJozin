@@ -3,10 +3,10 @@ Moduł zawierąjący funkcje main. Jest to moduł wykonawczy
 """
 import files
 import function
+import functions
 import modules
 import pythonfiles
 import registration
-import functions
 
 
 def main():

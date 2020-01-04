@@ -7,13 +7,13 @@ import functions
 
 class Files:
     """Klasa zawierająca metody do operacji na plikach"""
+
     def __init__(self):
         Files.filesConnectionList = []
         Files.filesConnectionWeight = []
 
     FilesConnectionList = []
     FilesConnectionWeight = []
-
 
     @classmethod
     def checking_weight_of_connections_between_files(cls,
@@ -39,7 +39,6 @@ class Files:
             print(error)
             print("Lack of file")
 
-
     @classmethod
     def checking_connections_between_files(cls, file_list):
         """ funkcja, która sprawdza jakie pliki są z sobą połaczone """
@@ -59,7 +58,8 @@ class Files:
                     numbers_of_code_lines_of_actually_connected_file = functions.counting_lines_of_code(
                         connect_file_list[amount[0]] + ".py")
                     file_connection_weight = cls.checking_weight_of_connections_between_files(actually_file,
-                                                                                              connect_file_list[amount[0]])
+                                                                                              connect_file_list[
+                                                                                                  amount[0]])
 
                     Files.filesConnectionList.append(element[0] + "[{}]".format(numbers_of_code_lines_of_actually_file))
                     Files.filesConnectionList.append(str(

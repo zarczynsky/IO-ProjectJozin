@@ -45,6 +45,7 @@ def write_to_file_fun_data(list1, list2):
 
 def cyclomatic_complexity():
     """ funkcja obliczająca złożoność cyklometryczną kodu"""
+    cc_list = []
     for actually_file in RESLUT2:
         with open(PATH + '\\' + actually_file, 'r') as open_file:
             try:
@@ -53,15 +54,15 @@ def cyclomatic_complexity():
                 for element in complexity:
                     split_text = str(element).split()
                     split_text_final_lvl = split_text[2].split('.')
-                    with open('cc.txt', 'a') as next_open_file:
-                        if len(split_text_final_lvl) > 1:
-                            if split_text_final_lvl[1] != '__init__':
-                                next_open_file.write(str(split_text_final_lvl[1]) + '[{}]'.format(split_text[4]) + '\n')
-                        else:
-                            next_open_file.write(str(split_text_final_lvl[0]) + '[{}]'.format(split_text[4]) + '\n')
+                    if len(split_text_final_lvl) > 1:
+                        if split_text_final_lvl[1] != '__init__':
+                            cc_list.append(str(split_text_final_lvl[1]) + '[{}]'.format(split_text[4]))
+                    else:
+                        cc_list.append(str(split_text_final_lvl[0]) + '[{}]'.format(split_text[4]))
 
             except IndentationError as error:
                 print(error)
+    return cc_list
 
 
 def menu():
@@ -76,3 +77,16 @@ def menu():
     print("7.Pliki, funkcje i moduły")
     choice = int(input("Wybierz co chciałbyś zobaczyć na grafie."))
     return choice
+
+def compare(list1, list2):
+    """Funkcja porównująca dwie listy"""
+    compared_list = []
+    for element1 in list1:
+        for element2 in list2:
+            split_text = element2.split('[')
+            if element1 == split_text[0]:
+                compared_list.append(element2)
+            else:
+                pass
+    return compared_list
+

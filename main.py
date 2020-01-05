@@ -27,12 +27,16 @@ def main():
     function_list2 = fun.checking_weight_of_connections_between_functions(result, function_list1)
     weight_fun = functions.write_to_file_fun_data(function_list1, function_list2)
     function.Functions.checking_connections_between_functions(result, weight_fun)
-    print(function_list1)
     modul_list = modules.Modules.searching_for_used_modules(result)
     modules.Modules.checking_connections_between_modules(result, modul_list)
 
+    join_list = functions.convert_list_to_list_for_cc(files.Files.filesConnectionList,
+                                                      modules.Modules.modulConnectionList)
+    join_list = list(set(join_list))
+
     cyclomatic_complexity = functions.cyclomatic_complexity()
     cyclomatic_complexity = functions.compare(function_list1, cyclomatic_complexity)
+    cyclomatic_complexity += join_list
     menu_choice = functions.menu()
 
     if menu_choice == 1:
@@ -48,7 +52,7 @@ def main():
 
     elif menu_choice == 3:
         registration.Registration.write_to_file("Modules",
-                                                modul.Modules.modulConnectionList)  # Wpisywanie do pliku połączeń modułów
+                                                files.Files.filesConnectionList)  # Wpisywanie do pliku połączeń modułów
         registration.Registration.write_to_file("", modul.Modules.modulConnectionWeight)
 
     elif menu_choice == 4:

@@ -57,7 +57,6 @@ class Functions:
             for element in range(int(len(Functions.functionsConnectionList) / 2)):
                 Functions.functionsConnectionWeight.append(str(1))
 
-
         except IndexError as error:
             print(error)
             print("Lack of file")

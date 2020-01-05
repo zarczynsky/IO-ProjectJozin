@@ -78,6 +78,7 @@ def menu():
     choice = int(input("Wybierz co chciałbyś zobaczyć na grafie."))
     return choice
 
+
 def compare(list1, list2):
     """Funkcja porównująca dwie listy"""
     compared_list = []
@@ -90,3 +91,13 @@ def compare(list1, list2):
                 pass
     return compared_list
 
+
+def convert_list_to_list_for_cc(*args):
+    """Funkcja konwerująca listy do postaci przydanej do cc"""
+    list_for_cc = []
+    for actual_list in args:
+        for element in actual_list:
+            split_text = element.split('[')
+            new_element = split_text[0] + "[0]"
+            list_for_cc.append(new_element)
+    return list_for_cc

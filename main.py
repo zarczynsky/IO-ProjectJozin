@@ -35,8 +35,9 @@ def main():
     join_list = list(set(join_list))
 
     cyclomatic_complexity = functions.cyclomatic_complexity()
-    cyclomatic_complexity = functions.compare(function_list1, cyclomatic_complexity)
+    cyclomatic_complexity = functions.compare(function.Functions.functionsConnectionList, cyclomatic_complexity)
     cyclomatic_complexity += join_list
+
     menu_choice = functions.menu()
 
     if menu_choice == 1:

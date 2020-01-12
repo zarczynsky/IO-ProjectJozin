@@ -80,13 +80,14 @@ def menu():
 
 
 def compare(list1, list2):
-    """Funkcja porównująca dwie listy"""
+    """Funkcja porównująca dwie listy i tworząca nową liste przydatną do cc"""
     compared_list = []
     for element1 in list1:
+        split_text = element1.split('[')
         for element2 in list2:
-            split_text = element2.split('[')
-            if element1 == split_text[0]:
-                compared_list.append(element2)
+            split_text_next_lvl = element2.split('[')
+            if split_text[0] == split_text_next_lvl[0]:
+                compared_list.append(element1+' ['+split_text_next_lvl[1])
             else:
                 pass
     return compared_list
@@ -97,7 +98,6 @@ def convert_list_to_list_for_cc(*args):
     list_for_cc = []
     for actual_list in args:
         for element in actual_list:
-            split_text = element.split('[')
-            new_element = split_text[0] + "[0]"
+            new_element = element + " [0]"
             list_for_cc.append(new_element)
     return list_for_cc

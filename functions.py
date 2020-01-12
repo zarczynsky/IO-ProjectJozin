@@ -109,7 +109,6 @@ def show_hash_commit():
     cmd_command='start "" "c:/Program Files/Git/bin/sh.exe" --login -i -c "cd C:/Users/Wikus/PycharmProjects/IO-ProjectJozin && git --no-pager log > git_log.txt"'
     proc=subprocess.call(cmd_command,shell=True)
     time.sleep(2)
-
     with open('./git_log.txt', 'r') as hash_file:
             first_line=hash_file.readline()
             first_line=first_line.split(' ')

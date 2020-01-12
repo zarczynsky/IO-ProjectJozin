@@ -1,24 +1,24 @@
 FILES
 files[60]
-functions[85]
+functions[99]
 function[73]
-functions[85]
-functions[85]
+functions[99]
+functions[99]
 pythonfiles[14]
-main[84]
+main[85]
 files[60]
-main[84]
+main[85]
 function[73]
-main[84]
-functions[85]
-main[84]
+main[85]
+functions[99]
+main[85]
 modules[69]
-main[84]
+main[85]
 pythonfiles[14]
-main[84]
+main[85]
 registration[21]
 modules[69]
-functions[85]
+functions[99]
 registration[21]
 files[60]
 registration[21]
@@ -31,7 +31,7 @@ dane
 1
 11
 11
-5
+6
 10
 1
 29
@@ -52,19 +52,21 @@ function[73]
 checking_weight_of_connections_between_functions[1]
 function[73]
 counting_lines_of_code[4]
-functions[85]
+functions[99]
 write_to_file_fun_data[1]
-functions[85]
+functions[99]
 cyclomatic_complexity[4]
-functions[85]
+functions[99]
 menu[1]
-functions[85]
+functions[99]
 compare[1]
-functions[85]
+functions[99]
 convert_list_to_list_for_cc[1]
-functions[85]
+functions[99]
+show_hash_commit[1]
+functions[99]
 main[3]
-main[84]
+main[85]
 searching_for_used_modules[1]
 modules[69]
 checking_connections_between_modules[1]
@@ -90,13 +92,26 @@ dane
 1
 1
 1
+1
 dane
 MODULES
+functions[99]
+time
+show_hash_commit
+sleep
 pythonfiles[14]
 glob
 list_directory
 glob
+functions[99]
+subprocess
+show_hash_commit
+call
 dane
+1
+1
+1
+1
 1
 1
 dane
@@ -112,19 +127,25 @@ cyclomatic_complexity[4] [6]
 menu[1] [1]
 compare[1] [4]
 convert_list_to_list_for_cc[1] [3]
+show_hash_commit[1] [1]
 main[3] [8]
-main[84] [8]
+main[85] [8]
 searching_for_used_modules[1] [12]
 checking_connections_between_modules[1] [9]
 list_directory[2] [2]
 write_to_file[28] [4]
 registration[21] [0]
-files[60] [0]
-functions[85] [0]
 modules[69] [0]
-list_directory [0]
-function[73] [0]
-main[84] [0]
-pythonfiles[14] [0]
 glob [0]
+list_directory [0]
+functions[99] [0]
+files[60] [0]
+time [0]
+function[73] [0]
+subprocess [0]
+call [0]
+show_hash_commit [0]
+sleep [0]
+pythonfiles[14] [0]
+main[85] [0]
 dane

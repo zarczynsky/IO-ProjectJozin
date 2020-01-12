@@ -1,0 +1,87 @@
+commit c686901007dca4b7526e8524b255f8f6dffcd29a
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Sun Jan 12 01:01:54 2020 +0100
+
+    historyjka nr 12 vol 2
+
+commit f0727569bec088ae76858721b2a553ee0464ee46
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Sat Jan 11 23:50:38 2020 +0100
+
+    historyjka nr 12
+
+commit 54b521728fc6fdb769ec5642c07d4ce98dbb5c03
+Merge: d9f605b a6dcd96
+Author: Grzegorz Zelek <50342912+gzelek8@users.noreply.github.com>
+Date:   Sun Jan 5 15:01:15 2020 +0100
+
+    Merge pull request #1 from wtycjan/patch-1
+    
+    Update Header.h
+
+commit a6dcd96823e4afdadce69df040597d1f796c9653
+Author: wtycjan <56653553+wtycjan@users.noreply.github.com>
+Date:   Sun Jan 5 14:59:31 2020 +0100
+
+    Update Header.h
+
+commit d9f605b126adc316aa3d3636f4d6006456a5dce7
+Merge: bbf5460 98e1d2e
+Author: Master Programer <you@example.com>
+Date:   Sun Jan 5 13:14:00 2020 +0100
+
+    Merge branch 'master' of https://github.com/gzelek8/IO-ProjectJozin
+
+commit bbf546075fd3e101b5f4ddd17b174200b61773d3
+Author: Master Programer <you@example.com>
+Date:   Sun Jan 5 13:12:22 2020 +0100
+
+    Cyclomatic complexity cd
+
+commit 98e1d2eb92fed5bfdba9d78a7f5d7433f53c8458
+Author: wiktorwanat <46346155+wiktorwanat@users.noreply.github.com>
+Date:   Sun Jan 5 00:21:01 2020 +0100
+
+    Add files via upload
+
+commit 4269c4ecdb58da6d45925f97e7b629b38fc93d16
+Author: wiktorwanat <46346155+wiktorwanat@users.noreply.github.com>
+Date:   Sat Jan 4 21:22:48 2020 +0100
+
+    Add files via upload
+
+commit b0b84c5e4432580cafdd6a24c4400e21abdb2992
+Author: Master Programer <you@example.com>
+Date:   Sat Jan 4 21:06:22 2020 +0100
+
+    Complexity
+
+commit 5b3c5a18e679acaab9684b49fbefb796267731a5
+Author: Master Programer <you@example.com>
+Date:   Sat Jan 4 14:42:25 2020 +0100
+
+    3
+
+commit 5bb4f6a2371986d827bb3b793c69ab9822d46a40
+Author: Master Programer <you@example.com>
+Date:   Sat Jan 4 14:40:42 2020 +0100
+
+    Second Commit
+
+commit 8779864f64a4cc793a42b986ea792eec355f356d
+Author: Master Programer <you@example.com>
+Date:   Sat Jan 4 14:03:46 2020 +0100
+
+    First commit3
+
+commit 86778ecfb6860db9bbcbe3a9819e8b35978287bb
+Author: Master Programer <you@example.com>
+Date:   Sat Jan 4 14:03:27 2020 +0100
+
+    First commit
+
+commit 613a4155ff730f716716f8dbc6f48aa62140ad69
+Author: Master Programer <you@example.com>
+Date:   Sat Jan 4 14:03:08 2020 +0100
+
+    First commit

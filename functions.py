@@ -2,6 +2,9 @@
 Moduł zawierający różne przydatne funckcje.
 """
 
+import subprocess
+import time
+
 from radon.complexity import cc_visit
 
 import pythonfiles
@@ -87,7 +90,7 @@ def compare(list1, list2):
         for element2 in list2:
             split_text_next_lvl = element2.split('[')
             if split_text[0] == split_text_next_lvl[0]:
-                compared_list.append(element1+' ['+split_text_next_lvl[1])
+                compared_list.append(element1 + ' [' + split_text_next_lvl[1])
             else:
                 pass
     return compared_list
@@ -101,3 +104,18 @@ def convert_list_to_list_for_cc(*args):
             new_element = element + " [0]"
             list_for_cc.append(new_element)
     return list_for_cc
+
+
+def show_hash_commit():
+    """funkcja w terminalu cmd wywoluje sh.exe a w nim wykonuje git loga aktualizujac commity na folder git_log.txt znajdujacy sie w folderze projektu """
+    cmd_command = 'start "" "c:/Program Files/Git/bin/sh.exe" --login -i -c "cd C:/Users/Wikus/PycharmProjects/IO-ProjectJozin && git --no-pager log > git_log.txt"'
+    proc = subprocess.call(cmd_command, shell=True)
+    time.sleep(2)
+    with open('./git_log.txt', 'r') as hash_file:
+        first_line = hash_file.readline()
+        first_line = first_line.split(' ')
+        commit = first_line[1]
+        commit = commit.replace('\n', '')
+
+        print('actual commit hash  : {}'.format(commit))
+    return str(commit)

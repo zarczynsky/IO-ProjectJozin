@@ -11,6 +11,8 @@ import registration
 
 def main():
     """Funkcja wykonująca cały program"""
+    commit = functions.show_hash_commit()
+
     modul = modules.Modules()
     fun = function.Functions()
     file = files.Files()

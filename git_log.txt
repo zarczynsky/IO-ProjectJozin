@@ -1,3 +1,9 @@
+commit c686901007dca4b7526e8524b255f8f6dffcd29a
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Sun Jan 12 01:01:54 2020 +0100
+
+    historyjka nr 12 vol 2
+
 commit f0727569bec088ae76858721b2a553ee0464ee46
 Author: wiktorwanat <wanatwiktor08@gmail.com>
 Date:   Sat Jan 11 23:50:38 2020 +0100

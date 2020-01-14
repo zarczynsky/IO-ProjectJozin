@@ -1,3 +1,9 @@
+commit a4f97ce4106175ee15d673b44967cf22f6fc8150
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Sun Jan 12 23:09:24 2020 +0100
+
+    historyjka nr 12 vol 3
+
 commit 6ef00d373e97c1ab316140a37fb1f5f9202ebb00
 Merge: 583c55e 624e423
 Author: Master Programer <you@example.com>

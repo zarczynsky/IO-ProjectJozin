@@ -1,3 +1,28 @@
+commit 6ef00d373e97c1ab316140a37fb1f5f9202ebb00
+Merge: 583c55e 624e423
+Author: Master Programer <you@example.com>
+Date:   Sun Jan 12 22:22:53 2020 +0100
+
+    Visual v2
+
+commit 583c55e7bcda4b306d5200ab5046e2b8300dabde
+Author: Master Programer <you@example.com>
+Date:   Sun Jan 12 22:19:02 2020 +0100
+
+    Cyclomatic complexity final version
+
+commit 624e423e28a6196e1ae2983ba13a12e988e58121
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Sun Jan 12 13:30:42 2020 +0100
+
+    historyjka nr 12 vol 3
+
+commit 687271c0d7a9cd194fb5cbe3404d0ef67727e7b4
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Sun Jan 12 13:27:54 2020 +0100
+
+    historyjka nr 12 vol 3
+
 commit c686901007dca4b7526e8524b255f8f6dffcd29a
 Author: wiktorwanat <wanatwiktor08@gmail.com>
 Date:   Sun Jan 12 01:01:54 2020 +0100

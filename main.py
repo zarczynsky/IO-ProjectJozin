@@ -16,6 +16,8 @@ def main():
     """Funkcja wykonująca cały program"""
     commit = functions.show_hash_commit()
 
+    registration.Registration.write_to_file('HASH_COMMIT',commit)
+
     modul = modules.Modules()
     fun = function.Functions()
     file = files.Files()

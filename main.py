@@ -1,6 +1,9 @@
 """
 Moduł zawierąjący funkcje main. Jest to moduł wykonawczy
 """
+import os
+
+import drawing
 import files
 import function
 import functions
@@ -41,6 +44,8 @@ def main():
     cyclomatic_complexity += join_list
 
     menu_choice = functions.menu()
+
+    os.unlink("graf_jozin.txt")
 
     if menu_choice == 1:
         registration.Registration.write_to_file("FILES",
@@ -104,6 +109,7 @@ def main():
     else:
         print("Wybrałeś opcję z poza zakresu")
         main()
+    drawing.open_draw_grapf_exe()
 
 
 main()

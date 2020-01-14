@@ -16,7 +16,7 @@ Author: Grzegorz Zelek <50342912+gzelek8@users.noreply.github.com>
 Date:   Sun Jan 5 15:01:15 2020 +0100
 
     Merge pull request #1 from wtycjan/patch-1
-    
+
     Update Header.h
 
 commit a6dcd96823e4afdadce69df040597d1f796c9653

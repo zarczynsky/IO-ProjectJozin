@@ -25,7 +25,7 @@ public:
 
 	string graph = "digraph G {graph [rankdir = \"LR\" bgcolor = \"antiquewhite:aquamarine\" style = \"filled\" gradientangle = 270]; "; 
 		
-	string dotPath = "C:\\Users\\Tycjan\\Documents\\release\\bin\\dot.exe"; //link do biblioteki
+	string dotPath = ".\\lib\\bin\\dot.exe"; //link do biblioteki
 	string notatnik = "graf_jozin.txt";
 	string tempFile = "temp.dot";
 	string outFile = "out.png";

@@ -108,7 +108,7 @@ def convert_list_to_list_for_cc(*args):
 
 def show_hash_commit():
     """funkcja w terminalu cmd wywoluje sh.exe a w nim wykonuje git loga aktualizujac commity na folder git_log.txt znajdujacy sie w folderze projektu """
-    cmd_command = 'start "" "c:/Program Files/Git/bin/sh.exe" --login -i -c "cd C:/Users/Wikus/PycharmProjects/IO-ProjectJozin && git --no-pager log > git_log.txt"'
+    cmd_command = 'start "" "C:\\Program Files\\Git\\bin\\sh.exe" --login -i -c "cd C:\\Users\\peepe\\Desktop\\python\\jozin && git --no-pager log > git_log.txt"'
     proc = subprocess.call(cmd_command, shell=True)
     time.sleep(2)
     with open('./git_log.txt', 'r') as hash_file:

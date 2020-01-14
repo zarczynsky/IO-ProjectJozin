@@ -5,17 +5,19 @@ function[73]
 functions[99]
 functions[99]
 pythonfiles[14]
-main[85]
+main[89]
+drawing[8]
+main[89]
 files[60]
-main[85]
+main[89]
 function[73]
-main[85]
+main[89]
 functions[99]
-main[85]
+main[89]
 modules[69]
-main[85]
+main[89]
 pythonfiles[14]
-main[85]
+main[89]
 registration[21]
 modules[69]
 functions[99]
@@ -27,6 +29,7 @@ registration[21]
 modules[69]
 dane
 3
+1
 1
 1
 11
@@ -41,6 +44,8 @@ dane
 1
 dane
 FUNCTIONS
+open_draw_grapf_exe[1]
+drawing[8]
 checking_weight_of_connections_between_files[1]
 files[60]
 checking_connections_between_files[1]
@@ -66,7 +71,7 @@ functions[99]
 show_hash_commit[1]
 functions[99]
 main[3]
-main[85]
+main[89]
 searching_for_used_modules[1]
 modules[69]
 checking_connections_between_modules[1]
@@ -93,29 +98,49 @@ dane
 1
 1
 1
+1
 dane
 MODULES
-functions[99]
-time
-show_hash_commit
-sleep
-pythonfiles[14]
-glob
-list_directory
-glob
+drawing[8]
+subprocess
+open_draw_grapf_exe
+call
 functions[99]
 subprocess
 show_hash_commit
 call
+pythonfiles[14]
+glob
+list_directory
+glob
+main[89]
+os
+main
+unlink
+drawing[8]
+time
+open_draw_grapf_exe
+sleep
+functions[99]
+time
+show_hash_commit
+sleep
 dane
 1
 1
+2
+2
 1
 1
 1
 1
+1
+1
+2
+2
 dane
 CYCLOMATIC_COMPLEXITY
+open_draw_grapf_exe[1] [1]
 checking_weight_of_connections_between_files[1] [8]
 checking_connections_between_files[1] [10]
 checking_connections_between_functions1[1] [7]
@@ -129,23 +154,28 @@ compare[1] [4]
 convert_list_to_list_for_cc[1] [3]
 show_hash_commit[1] [1]
 main[3] [8]
-main[85] [8]
+main[89] [8]
 searching_for_used_modules[1] [12]
 checking_connections_between_modules[1] [9]
 list_directory[2] [2]
 write_to_file[28] [4]
-registration[21] [0]
-modules[69] [0]
+open_draw_grapf_exe [0]
+main[89] [0]
 glob [0]
-list_directory [0]
-functions[99] [0]
 files[60] [0]
-time [0]
+list_directory [0]
+unlink [0]
 function[73] [0]
-subprocess [0]
-call [0]
+modules[69] [0]
+os [0]
+registration[21] [0]
+time [0]
 show_hash_commit [0]
-sleep [0]
+call [0]
+functions[99] [0]
 pythonfiles[14] [0]
-main[85] [0]
+main [0]
+sleep [0]
+drawing[8] [0]
+subprocess [0]
 dane

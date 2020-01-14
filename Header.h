@@ -25,7 +25,7 @@ public:
 
 	string graph = "digraph G {graph [rankdir = \"LR\" bgcolor = \"antiquewhite:aquamarine\" style = \"filled\" gradientangle = 270]; "; 
 		
-	string dotPath = ".\\lib\\bin\\dot.exe"; //link do biblioteki
+	string dotPath = "C:\\Users\\Tycjan\\Documents\\release\\bin\\dot.exe"; //link do biblioteki
 	string notatnik = "graf_jozin.txt";
 	string tempFile = "temp.dot";
 	string outFile = "out.png";
@@ -35,8 +35,30 @@ class Funkcje : public Dane
 {
 public:
 	void draw() {
+		dane.open(notatnik, ios::in);  //txt od Grzesia
+		string gitcommit;
+		if (dane.good() == false)
+		{
+			cout << "Nie mozna otworzyc pliku";		//hash commit git
+			exit(0);
+		}
+		else
+		{
+			while (getline(dane, linia))
+			{
+				if (linia == "HASH_COMMIT") {
+					break;
+				}
+			}
+			getline(dane, linia);
+			gitcommit = linia;
+		}
+		dane.close();
 
-		graph += "}";
+		graph += "overlap=false \n"		//konczymy tworzenie grafu
+			"label = "+ gitcommit +" \n"
+			"fontsize = 12; \n"
+			"}";
 		cout << graph << endl;
 		ofstream out;
 		out.open(tempFile.c_str(), std::ios::out);

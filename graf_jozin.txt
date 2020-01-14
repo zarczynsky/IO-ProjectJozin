@@ -1,6 +1,3 @@
-HASH_COMMIT
-6ef00d373e97c1ab316140a37fb1f5f9202ebb00
-dane
 FILES
 files[60]
 functions[101]
@@ -8,33 +5,19 @@ function[73]
 functions[101]
 functions[101]
 pythonfiles[14]
-<<<<<<< HEAD
-main[89]
+main[90]
 drawing[8]
-main[89]
+main[90]
 files[60]
-main[89]
+main[90]
 function[73]
-main[89]
-functions[99]
-main[89]
-modules[69]
-main[89]
-pythonfiles[14]
-main[89]
-=======
-main[86]
-files[60]
-main[86]
-function[73]
-main[86]
+main[90]
 functions[101]
-main[86]
+main[90]
 modules[69]
-main[86]
+main[90]
 pythonfiles[14]
-main[86]
->>>>>>> a4f97ce4106175ee15d673b44967cf22f6fc8150
+main[90]
 registration[21]
 modules[69]
 functions[101]
@@ -44,6 +27,20 @@ registration[21]
 function[73]
 registration[21]
 modules[69]
+tests_for_python[111]
+function[73]
+tests_for_python[111]
+registration[21]
+tests_for_python[111]
+pythonfiles[14]
+tests_for_python[111]
+functions[101]
+tests_for_python[111]
+files[60]
+tests_for_python[111]
+modules[69]
+tests_for_python[111]
+main[90]
 dane
 3
 1
@@ -59,23 +56,30 @@ dane
 0
 1
 1
+1
+1
+1
+1
+3
+2
+0
 dane
 FUNCTIONS
 open_draw_grapf_exe[1]
 drawing[8]
-checking_weight_of_connections_between_files[1]
+checking_weight_of_connections_between_files[2]
 files[60]
-checking_connections_between_files[1]
+checking_connections_between_files[2]
 files[60]
-checking_connections_between_functions1[1]
+checking_connections_between_functions1[2]
 function[73]
 checking_connections_between_functions[1]
 function[73]
-checking_weight_of_connections_between_functions[1]
+checking_weight_of_connections_between_functions[2]
 function[73]
-counting_lines_of_code[4]
+counting_lines_of_code[5]
 functions[101]
-write_to_file_fun_data[1]
+write_to_file_fun_data[2]
 functions[101]
 cyclomatic_complexity[4]
 functions[101]
@@ -88,20 +92,46 @@ functions[101]
 show_hash_commit[1]
 functions[101]
 main[3]
-<<<<<<< HEAD
-main[89]
-=======
-main[86]
->>>>>>> a4f97ce4106175ee15d673b44967cf22f6fc8150
-searching_for_used_modules[1]
+main[90]
+searching_for_used_modules[2]
 modules[69]
-checking_connections_between_modules[1]
+checking_connections_between_modules[2]
 modules[69]
-list_directory[2]
+list_directory[3]
 pythonfiles[14]
-write_to_file[29]
+write_to_file[30]
 registration[21]
+test_counting_lines_of_code[0]
+tests_for_python[111]
+test_write_to_file_fun_data[0]
+tests_for_python[111]
+test_of_file_searching[0]
+tests_for_python[111]
+test_checking_connections_between_functions_one[0]
+tests_for_python[111]
+test_checking_weight_of_connections_between_functions[0]
+tests_for_python[111]
+test_checking_connections_between_function[0]
+tests_for_python[111]
+test_checking_weight_of_connections_between_files[0]
+tests_for_python[111]
+test_checking_connections_between_files[0]
+tests_for_python[111]
+test_searching_for_used_modules[0]
+tests_for_python[111]
+test_checking_connections_between_modules[0]
+tests_for_python[111]
 dane
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
 1
 1
 1
@@ -122,51 +152,81 @@ dane
 1
 dane
 MODULES
-<<<<<<< HEAD
-drawing[8]
-subprocess
-open_draw_grapf_exe
-call
-functions[99]
-subprocess
-show_hash_commit
-call
-=======
->>>>>>> a4f97ce4106175ee15d673b44967cf22f6fc8150
+main[90]
+os
+main
+unlink
+tests_for_python[111]
+os
+test_checking_weight_of_connections_between_files
+remove
+tests_for_python[111]
+os
+test_checking_weight_of_connections_between_files
+remove
+tests_for_python[111]
+os
+test_checking_connections_between_files
+remove
+tests_for_python[111]
+os
+test_checking_connections_between_files
+remove
+tests_for_python[111]
+os
+test_searching_for_used_modules
+remove
+tests_for_python[111]
+os
+test_checking_connections_between_modules
+remove
+tests_for_python[111]
+os
+test_checking_connections_between_modules
+remove
 pythonfiles[14]
 glob
 list_directory
 glob
-<<<<<<< HEAD
-main[89]
-os
-main
-unlink
 drawing[8]
 time
 open_draw_grapf_exe
 sleep
-functions[99]
-time
-=======
 functions[101]
 time
 show_hash_commit
 sleep
+drawing[8]
+subprocess
+open_draw_grapf_exe
+call
 functions[101]
 subprocess
->>>>>>> a4f97ce4106175ee15d673b44967cf22f6fc8150
 show_hash_commit
-sleep
+call
 dane
 1
 1
 2
 2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
 1
 1
 1
 1
+2
+2
 1
 1
 2
@@ -174,63 +234,57 @@ dane
 dane
 CYCLOMATIC_COMPLEXITY
 open_draw_grapf_exe[1] [1]
-checking_weight_of_connections_between_files[1] [8]
-checking_connections_between_files[1] [10]
-checking_connections_between_functions1[1] [7]
+checking_weight_of_connections_between_files[2] [8]
+checking_connections_between_files[2] [10]
+checking_connections_between_functions1[2] [7]
 checking_connections_between_functions[1] [8]
-checking_weight_of_connections_between_functions[1] [10]
-counting_lines_of_code[4] [4]
-write_to_file_fun_data[1] [4]
+checking_weight_of_connections_between_functions[2] [10]
+counting_lines_of_code[5] [4]
+write_to_file_fun_data[2] [4]
 cyclomatic_complexity[4] [6]
 menu[1] [1]
 compare[1] [4]
 convert_list_to_list_for_cc[1] [3]
 show_hash_commit[1] [1]
 main[3] [8]
-<<<<<<< HEAD
-main[89] [8]
-searching_for_used_modules[1] [12]
-checking_connections_between_modules[1] [9]
-list_directory[2] [2]
-write_to_file[28] [4]
-open_draw_grapf_exe [0]
-main[89] [0]
-glob [0]
-files[60] [0]
-list_directory [0]
-unlink [0]
-function[73] [0]
-modules[69] [0]
+main[90] [8]
+searching_for_used_modules[2] [12]
+checking_connections_between_modules[2] [9]
+list_directory[3] [2]
+write_to_file[30] [4]
+test_counting_lines_of_code[0] [2]
+test_write_to_file_fun_data[0] [2]
+test_of_file_searching[0] [2]
+test_checking_connections_between_functions_one[0] [2]
+test_checking_weight_of_connections_between_functions[0] [2]
+test_checking_connections_between_function[0] [1]
+test_checking_weight_of_connections_between_files[0] [2]
+test_checking_connections_between_files[0] [2]
+test_searching_for_used_modules[0] [2]
+test_checking_connections_between_modules[0] [2]
 os [0]
-registration[21] [0]
-time [0]
-show_hash_commit [0]
-call [0]
-functions[99] [0]
-pythonfiles[14] [0]
-main [0]
-sleep [0]
-drawing[8] [0]
-subprocess [0]
-=======
-main[86] [8]
-searching_for_used_modules[1] [12]
-checking_connections_between_modules[1] [9]
-list_directory[2] [2]
-write_to_file[29] [4]
-sleep [0]
 glob [0]
-functions[101] [0]
+open_draw_grapf_exe [0]
 list_directory [0]
+function[73] [0]
+subprocess [0]
+files[60] [0]
+test_searching_for_used_modules [0]
+test_checking_weight_of_connections_between_files [0]
+functions[101] [0]
+remove [0]
+test_checking_connections_between_modules [0]
+unlink [0]
+sleep [0]
+main[90] [0]
+main [0]
+test_checking_connections_between_files [0]
 call [0]
 time [0]
-show_hash_commit [0]
-function[73] [0]
-files[60] [0]
+tests_for_python[111] [0]
 modules[69] [0]
-subprocess [0]
-pythonfiles[14] [0]
+drawing[8] [0]
+show_hash_commit [0]
 registration[21] [0]
-main[86] [0]
->>>>>>> a4f97ce4106175ee15d673b44967cf22f6fc8150
+pythonfiles[14] [0]
 dane

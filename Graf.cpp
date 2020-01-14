@@ -4,9 +4,9 @@
 #include <cstdlib>
 #include <new>
 #include"Header.h"
-#include <shlobj.h>
-#include <shlwapi.h>
-#include <shellapi.h>
+#include <shlobj.h> 
+#include <shlwapi.h> 
+#include <shellapi.h> 
 
 using namespace std;
 
@@ -29,8 +29,7 @@ int main()
 
 	cout << endl << "Graf zostal utworzony w pliku out.png" << endl;
 
-	ShellExecute(0, 0, ".\\out.png", 0, 0, SW_SHOW);
-	system("start out.png");
+	ShellExecute(0, 0, "C:\\Users\\Tycjan\\source\\repos\\IOprojekt\\IOprojekt\\out.png", 0, 0, SW_SHOW);
 
 	system("PAUSE");
 

@@ -1,3 +1,46 @@
+commit c42de49e300885bb5a35654c3a4c7e860789d3e0
+Author: wiktorwanat <wanatwiktor08@gmail.com>
+Date:   Tue Jan 14 11:11:57 2020 +0100
+
+    historyjka nr 12 vol 3
+
+commit d602736d7b91eb3628ce35f5da688d54aa4cb36e
+Author: Master Programer <you@example.com>
+Date:   Tue Jan 14 10:49:39 2020 +0100
+
+    before hash
+
+commit d29e4d6106e5f63f4d06481da23bf0b0de26a302
+Author: wtycjan <56653553+wtycjan@users.noreply.github.com>
+Date:   Tue Jan 14 10:36:10 2020 +0100
+
+    Update Header.h
+
+commit 369bf965e5acfd5bb12f4e5433f346685ff69f38
+Author: wtycjan <56653553+wtycjan@users.noreply.github.com>
+Date:   Tue Jan 14 10:35:50 2020 +0100
+
+    Update Graf.cpp
+
+commit 509779865faed6e91921c23a80bbac44cd973111
+Author: Master Programer <you@example.com>
+Date:   Tue Jan 14 08:32:37 2020 +0100
+
+    IO 16.01.2020
+
+commit 79b7477ca6ada8d3058d6aa29b5729294377f600
+Merge: e7633d4 a4f97ce
+Author: Master Programer <you@example.com>
+Date:   Tue Jan 14 08:27:43 2020 +0100
+
+    Automatic v2
+
+commit e7633d4f0b9394a0aa54d2cf24b6ffc993b9376a
+Author: Master Programer <you@example.com>
+Date:   Tue Jan 14 08:26:42 2020 +0100
+
+    Automatic
+
 commit a4f97ce4106175ee15d673b44967cf22f6fc8150
 Author: wiktorwanat <wanatwiktor08@gmail.com>
 Date:   Sun Jan 12 23:09:24 2020 +0100
@@ -47,7 +90,7 @@ Author: Grzegorz Zelek <50342912+gzelek8@users.noreply.github.com>
 Date:   Sun Jan 5 15:01:15 2020 +0100
 
     Merge pull request #1 from wtycjan/patch-1
-
+    
     Update Header.h
 
 commit a6dcd96823e4afdadce69df040597d1f796c9653

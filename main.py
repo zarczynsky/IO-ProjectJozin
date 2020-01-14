@@ -14,8 +14,10 @@ import registration
 
 def main():
     """Funkcja wykonująca cały program"""
-    commit = functions.show_hash_commit()
+    """Funkcja wykonująca cały program"""
+    os.unlink("graf_jozin.txt")
 
+    commit = functions.show_hash_commit()
     registration.Registration.write_to_file('HASH_COMMIT',commit)
 
     modul = modules.Modules()
@@ -47,7 +49,6 @@ def main():
 
     menu_choice = functions.menu()
 
-    os.unlink("graf_jozin.txt")
 
     if menu_choice == 1:
         registration.Registration.write_to_file("FILES",

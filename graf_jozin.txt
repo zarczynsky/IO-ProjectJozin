@@ -1,26 +1,29 @@
+HASH_COMMIT
+c42de49e300885bb5a35654c3a4c7e860789d3e0
+dane
 FILES
 files[60]
-functions[101]
+functions[102]
 function[73]
-functions[101]
-functions[101]
+functions[102]
+functions[102]
 pythonfiles[14]
-main[90]
+main[91]
 drawing[8]
-main[90]
+main[91]
 files[60]
-main[90]
+main[91]
 function[73]
-main[90]
-functions[101]
-main[90]
+main[91]
+functions[102]
+main[91]
 modules[69]
-main[90]
+main[91]
 pythonfiles[14]
-main[90]
+main[91]
 registration[21]
 modules[69]
-functions[101]
+functions[102]
 registration[21]
 files[60]
 registration[21]
@@ -34,13 +37,13 @@ registration[21]
 tests_for_python[111]
 pythonfiles[14]
 tests_for_python[111]
-functions[101]
+functions[102]
 tests_for_python[111]
 files[60]
 tests_for_python[111]
 modules[69]
 tests_for_python[111]
-main[90]
+main[91]
 dane
 3
 1
@@ -78,21 +81,21 @@ function[73]
 checking_weight_of_connections_between_functions[2]
 function[73]
 counting_lines_of_code[5]
-functions[101]
+functions[102]
 write_to_file_fun_data[2]
-functions[101]
+functions[102]
 cyclomatic_complexity[4]
-functions[101]
+functions[102]
 menu[1]
-functions[101]
+functions[102]
 compare[1]
-functions[101]
+functions[102]
 convert_list_to_list_for_cc[1]
-functions[101]
+functions[102]
 show_hash_commit[1]
-functions[101]
+functions[102]
 main[3]
-main[90]
+main[91]
 searching_for_used_modules[2]
 modules[69]
 checking_connections_between_modules[2]
@@ -152,7 +155,27 @@ dane
 1
 dane
 MODULES
-main[90]
+drawing[8]
+subprocess
+open_draw_grapf_exe
+call
+functions[102]
+subprocess
+show_hash_commit
+call
+pythonfiles[14]
+glob
+list_directory
+glob
+drawing[8]
+time
+open_draw_grapf_exe
+sleep
+functions[102]
+time
+show_hash_commit
+sleep
+main[91]
 os
 main
 unlink
@@ -184,31 +207,21 @@ tests_for_python[111]
 os
 test_checking_connections_between_modules
 remove
-drawing[8]
-subprocess
-open_draw_grapf_exe
-call
-functions[101]
-subprocess
-show_hash_commit
-call
-pythonfiles[14]
-glob
-list_directory
-glob
-drawing[8]
-time
-open_draw_grapf_exe
-sleep
-functions[101]
-time
-show_hash_commit
-sleep
 dane
 1
 1
 2
 2
+1
+1
+1
+1
+2
+2
+1
+1
+2
+2
 3
 3
 4
@@ -221,16 +234,6 @@ dane
 7
 8
 8
-1
-1
-2
-2
-1
-1
-1
-1
-2
-2
 dane
 CYCLOMATIC_COMPLEXITY
 open_draw_grapf_exe[1] [1]
@@ -247,7 +250,7 @@ compare[1] [4]
 convert_list_to_list_for_cc[1] [3]
 show_hash_commit[1] [1]
 main[3] [8]
-main[90] [8]
+main[91] [8]
 searching_for_used_modules[2] [12]
 checking_connections_between_modules[2] [9]
 list_directory[3] [2]
@@ -262,29 +265,29 @@ test_checking_weight_of_connections_between_files[0] [2]
 test_checking_connections_between_files[0] [2]
 test_searching_for_used_modules[0] [2]
 test_checking_connections_between_modules[0] [2]
-call [0]
-functions[101] [0]
-unlink [0]
+open_draw_grapf_exe [0]
+function[73] [0]
+show_hash_commit [0]
+list_directory [0]
+files[60] [0]
+time [0]
+drawing[8] [0]
 test_checking_weight_of_connections_between_files [0]
 subprocess [0]
 test_searching_for_used_modules [0]
-sleep [0]
-remove [0]
-list_directory [0]
-test_checking_connections_between_files [0]
-main [0]
-main[90] [0]
-function[73] [0]
-glob [0]
-registration[21] [0]
-tests_for_python[111] [0]
-show_hash_commit [0]
-drawing[8] [0]
-files[60] [0]
-modules[69] [0]
 pythonfiles[14] [0]
-open_draw_grapf_exe [0]
-test_checking_connections_between_modules [0]
+remove [0]
+unlink [0]
+functions[102] [0]
+test_checking_connections_between_files [0]
+tests_for_python[111] [0]
+glob [0]
+call [0]
+main[91] [0]
+main [0]
 os [0]
-time [0]
+test_checking_connections_between_modules [0]
+modules[69] [0]
+registration[21] [0]
+sleep [0]
 dane

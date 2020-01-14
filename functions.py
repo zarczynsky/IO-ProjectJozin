@@ -119,6 +119,7 @@ def show_hash_commit():
         commit = commit.replace('\n', '')
 
         print('actual commit hash  : {}'.format(commit))
+
         commit_as_list=[]
         commit_as_list.append(commit)
     return commit_as_list

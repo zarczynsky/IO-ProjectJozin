@@ -182,9 +182,14 @@ public:
 			if (nazwa == "FUNCTIONS")
 			{
 				for (k = 0; k < l_funkcji; k++)
-				{
-					graph += "" + quote + funkcja[k] + quote + " [style =filled, color=" + color + " xlabel=" + quote + complexity[k]+ quote  + "]; \n";
-				}
+					{if(complexity[k]!=" [0]"){
+						graph += "" + quote + funkcja[k] + quote + " [style =filled, color=" + color + " xlabel=" + quote + complexity[k]+ quote  + "]; \n";
+									}
+					esle{
+						graph += "" + quote + poloczenia[k] + quote + " [style =filled, color=" + color + "]; \n";
+			
+						}
+					}
 			}
 			else {
 				for (igraf = 0; igraf < l_polaczen - 1; igraf++)	// tworzenie polecenia do stworzenia grafu w petli
